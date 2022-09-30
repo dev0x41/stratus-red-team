@@ -11,14 +11,14 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.17.7
 	github.com/aws/aws-sdk-go-v2/credentials v1.12.20
 	github.com/aws/aws-sdk-go-v2/service/cloudtrail v1.18.1
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.26.0
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.61.0
 	github.com/aws/aws-sdk-go-v2/service/iam v1.18.19
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.17.0
 	github.com/aws/aws-sdk-go-v2/service/organizations v1.12.0
 	github.com/aws/aws-sdk-go-v2/service/rds v1.16.0
 	github.com/aws/aws-sdk-go-v2/service/rolesanywhere v1.0.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.23.0
-	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.13.0
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.16.1
 	github.com/aws/aws-sdk-go-v2/service/ssm v1.20.0
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.19
 	github.com/aws/smithy-go v1.13.3
