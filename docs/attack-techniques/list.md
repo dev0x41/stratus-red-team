@@ -47,11 +47,18 @@ This page contains the list of all Stratus Attack Techniques.
 | [Add a Malicious Lambda Extension](./AWS/aws.persistence.lambda-layer-extension.md) | [AWS](./AWS/index.md) | Persistence, Privilege Escalation |
 | [Overwrite Lambda Function Code](./AWS/aws.persistence.lambda-overwrite-code.md) | [AWS](./AWS/index.md) | Persistence |
 | [Create an IAM Roles Anywhere trust anchor](./AWS/aws.persistence.rolesanywhere-create-trust-anchor.md) | [AWS](./AWS/index.md) | Persistence, Privilege Escalation |
+| [Change IAM user password](./AWS/aws.privilege-escalation.iam-update-user-login-profile.md) | [AWS](./AWS/index.md) | Privilege Escalation |
 | [Execute Command on Virtual Machine using Custom Script Extension](./azure/azure.execution.vm-custom-script-extension.md) | [Azure](./azure/index.md) | Execution |
 | [Execute Commands on Virtual Machine using Run Command](./azure/azure.execution.vm-run-command.md) | [Azure](./azure/index.md) | Execution |
 | [Export Disk Through SAS URL](./azure/azure.exfiltration.disk-export.md) | [Azure](./azure/index.md) | Exfiltration |
 | [Create Admin EKS Access Entry](./EKS/eks.lateral-movement.create-access-entry.md) | [EKS](./EKS/index.md) | Lateral Movement |
 | [Backdoor aws-auth EKS ConfigMap](./EKS/eks.persistence.backdoor-aws-auth-configmap.md) | [EKS](./EKS/index.md) | Persistence, Privilege Escalation |
+| [Backdoor Entra ID application through service principal](./entra-id/entra-id.persistence.backdoor-application-sp.md) | [Entra ID](./entra-id/index.md) | Persistence, Privilege Escalation |
+| [Backdoor Entra ID application](./entra-id/entra-id.persistence.backdoor-application.md) | [Entra ID](./entra-id/index.md) | Persistence, Privilege Escalation |
+| [Create Guest User](./entra-id/entra-id.persistence.guest-user.md) | [Entra ID](./entra-id/index.md) | Persistence |
+| [Create Hidden Scoped Role Assignment Through HiddenMembership AU](./entra-id/entra-id.persistence.hidden-au.md) | [Entra ID](./entra-id/index.md) | Persistence |
+| [Create Application](./entra-id/entra-id.persistence.new-application.md) | [Entra ID](./entra-id/index.md) | Persistence, Privilege Escalation |
+| [Create Sticky Backdoor User Through Restricted Management AU](./entra-id/entra-id.persistence.restricted-au.md) | [Entra ID](./entra-id/index.md) | Persistence |
 | [Exfiltrate Compute Disk by sharing it](./GCP/gcp.exfiltration.share-compute-disk.md) | [GCP](./GCP/index.md) | Exfiltration |
 | [Exfiltrate Compute Image by sharing it](./GCP/gcp.exfiltration.share-compute-image.md) | [GCP](./GCP/index.md) | Exfiltration |
 | [Exfiltrate Compute Disk by sharing a snapshot](./GCP/gcp.exfiltration.share-compute-snapshot.md) | [GCP](./GCP/index.md) | Exfiltration |
